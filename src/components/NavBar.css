@@ -1,0 +1,64 @@
+.navBarConatiner {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1024px;
+    padding: 15px 0px;
+}
+
+.logo {
+    width: 120px;
+}
+
+.navLinks {
+    display: flex;
+    column-gap: 20px;
+}
+
+.navLinks .navLink {
+    text-decoration: none;
+    /* color: #ff2b85; */
+    color: black;
+    display: flex;
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+
+.navLinks .navLink:hover{
+    transform: scale(115%);
+}
+
+.active{
+    color: #ff2b85 !important;
+    text-decoration: underline !important;
+}
+
+.navBtns {
+    display: flex;
+    column-gap: 10px;
+}
+
+.navBtns button {
+    padding: 4px 10px;
+    border-radius: 6px;
+    border: 1px solid;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.navBtns button:hover{
+    transform: scale(110%);
+}
+
+.signUp{
+    background-color: #ff2b85;
+    color: white;
+    border: 1px solid #ff2b85 !important;
+}
