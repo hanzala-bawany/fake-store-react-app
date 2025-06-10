@@ -2,6 +2,12 @@
     display: flex;
     justify-content: center;
     width: 100%;
+    box-shadow: 2px 2px 12px 2px rgb(187, 185, 185);
+    position: fixed;
+    top: 0px;
+    height: 50px;
+    background-color: white;
+    z-index: 1;
 }
 
 .navBar {
@@ -10,7 +16,7 @@
     align-items: center;
     width: 100%;
     max-width: 1024px;
-    padding: 15px 0px;
+    /* padding: 15px 0px; */
 }
 
 .logo {
@@ -39,6 +45,14 @@
     color: #ff2b85 !important;
     text-decoration: underline !important;
 }
+
+.location{
+    display: flex;
+    column-gap: 10px;
+    font-size: 17px;
+    align-items: center;
+}
+
 
 .navBtns {
     display: flex;

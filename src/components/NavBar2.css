@@ -5,6 +5,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
+    margin-top: 50px;
 }
 
 .navbar2 {
@@ -13,11 +14,11 @@
     display: flex;
     justify-content: center;
     color: white !important;
-    padding: 8px 0px;
+    padding: 10px 0px;
 }
 
 .inputContainer button {
-    padding: 6px 10px;
+    padding: 8px 10px;
     border-radius: 7px 0px 0px 7px;
     border: 1px solid;
     background-color: white;
@@ -30,7 +31,7 @@
 }
 
 .inputContainer input {
-    padding: 6px 10px;
+    padding: 8px 10px;
     border-radius: 0px 5px 5px 0px;
     border: none;
     width: 100vw;

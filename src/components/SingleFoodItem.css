@@ -1,0 +1,98 @@
+.singleCardConytainer{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+    padding: 40px 0px; 
+}
+
+/* section 1 */
+.currentLocation{
+    word-spacing: 6px;
+    width: 100%;
+    max-width: 1024px;
+}
+
+/*  sectioin 2 */
+.singleFoodItem{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+/*  sub section 1  */
+.singleCardImg{
+    width: 160px;
+    height: 140px;
+    border-radius: 10px;
+}
+
+
+/* sub section 2 */
+.cardContent{
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    font-size: 14px;
+}
+
+.cardContent .itemHeading{
+    font-size: 28px;
+    color: #ff2b85;
+}
+
+.Dcharges{
+    display: flex;
+    column-gap: 5px;
+}
+
+.priceContainer{
+    display: flex;
+    column-gap: 5px;
+    margin-left: 3px;
+    color: #ff2b85;
+}
+.totalPrice{
+    margin-left: 10px;
+    color: black;
+}
+
+
+.reveiwConatiner{
+    display: flex;
+    column-gap: 10px;
+}
+.reveiwConatiner div{
+    display: flex;
+    column-gap: 5px;
+}
+
+
+/* sub section 3 */
+.singleCardBtns{
+    display: flex;
+    column-gap: 10px;
+    margin-left: auto;
+    align-self: flex-start;
+}
+
+.singleCardBtns button{
+    border-radius: 8px;
+    padding: 4px 8px;
+    border: 1px solid;
+    background-color: #ff2b85;
+    color: white;
+}
+
+.singleCardBtns button:hover{
+    cursor: pointer;
+    background-color: white ;
+    color: #ff2b85;
+}
+
+

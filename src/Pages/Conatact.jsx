@@ -1,7 +1,11 @@
+import NavBar from "../components/NavBar"
 
 const Conatact = () => {
   return (
-    <h1>Conatact</h1>
+    <> 
+         < NavBar />
+    <h1>Contact</h1>
+    </>
   )
 }
 

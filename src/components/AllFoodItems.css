@@ -1,0 +1,94 @@
+.allFoodItemsConatiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+    margin-top: 40px;
+}
+.pageLocation{
+    width: 100%;
+    max-width: 1024px;
+}
+
+.allFoodItemsHeading{
+    margin: 0px ;
+}
+
+.allFooItemsCards{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+/* card */
+
+.foodItemCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+    width: 100%;
+    max-width: 330px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 2px 2px 10px 6px rgb(224, 223, 223);
+    transition: transform 0.5s ease;
+}
+
+
+.foodItemCard:hover{
+    background-color: #ffe4f0;
+    cursor: pointer;
+    transform: scale(105%);
+}
+
+/* card content */
+
+.foodContent{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.foodContent h4{
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+.prise{
+    display: flex;
+    color: #FF2B85;
+    column-gap: 5px;
+    align-items: flex-end;
+    font-size: 15px;
+}
+.cutPrise{
+    font-size: 13px;
+    text-decoration: line-through 0.5px solid;
+    color:  gray;
+}
+
+.foodContent p{
+    font-size: 13px;
+}
+
+
+
+.cardImg{
+    width: 105px;
+    height: 100px;
+    position: static;
+    border-radius: 10px;
+}
+
+
+
+
+.myCustomLink {
+    text-decoration: none;
+    color: inherit;
+  }

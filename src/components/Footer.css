@@ -1,0 +1,56 @@
+.footerContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0px;
+    border-top: 1px solid;
+    margin-top: 40px;
+}
+
+.logoContainer{
+    display: flex;
+    column-gap: 10px;
+}
+
+.logoContainer img{
+    width: 100%;
+    max-width: 130px;
+}
+
+.logoContainer .line{
+    width: 1px;
+    border: 0.5px solid;
+}
+
+
+
+.socialLinks{
+    display: flex;
+    column-gap: 10px;
+}
+
+.socialLinks div{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.socialLinks img{
+    width: 100%;
+    height: 100%;
+    transform: scale(110%);
+}
+
+.fbContainer img{
+    transform: scale(180%);
+}
